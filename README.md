@@ -2,6 +2,7 @@
 ## 概要
 Pythonで作成された
 ターミナル上で行うゲーム．
+**プルリクエスト等大歓迎 !**
 ## インストール
 ```
 pip3 install git+https://github.com/kdg2024/terminal-games.git
