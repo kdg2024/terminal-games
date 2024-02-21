@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 import glob
 
 setup(
-  name="card-games",
+  name="terminal-games",
   version="1.0.0",
   package_dir={"":"lib"},
   packages=find_packages(where="lib"),
