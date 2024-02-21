@@ -23,6 +23,12 @@ echo "export PATH=\$PATH:\""$(pip3 show django | grep Location | cut -d " " -f 2
 exec zsh
 ```
 でおそらく使用可能になる．
+## 更新
+```
+pip3 install git+https://github.com/kdg2024/terminal-games.git -U
+```
+- リポジトリが更新されていても[setup.py](setup.py)に記述されたversionが変わっていなければ更新されないので注意
+
 ## アンインストール
 ```
 pip3 uninstall terminal-games
@@ -43,4 +49,7 @@ baccarat.py
 ```
 baccarat.py -p Uehara Ashino Kobayashi
 ```
+
+
+
 
