@@ -47,8 +47,9 @@ baccarat.py
 ```
 複数人でプレイ（一例）
 ```
-baccarat.py -p Uehara Ashino Kobayashi
+baccarat.py -p "信長" "秀吉" "家康"
 ```
+
 
 
 
